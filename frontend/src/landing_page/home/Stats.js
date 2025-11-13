@@ -2,7 +2,7 @@ import React from 'react';
 
 function Stats() {
     return ( 
-       <div className='container mt-5'>
+       <div className='container mt-5 mb-5'>
         <div className='row'>
             <div className='col-6 mt-5'>
                 <h3 className='mb-5'>Trust with confidence</h3>
@@ -20,8 +20,8 @@ function Stats() {
             <div className='col-6'>
                 <img src="media\images\ecosystem.png" style={{width:"100%"}} className='mt-5'/>
                 <div className='row'>
-                    <a className='col-6'  style={{textDecoration:"none"}}> Explore our products <i class="fa-solid fa-arrow-right"></i> </a>
-                    <a className='col-6' style={{textDecoration:"none"}}> Try Kite Demo <i class="fa-solid fa-arrow-right"></i> </a>
+                    <a href="#" className='col-6'  style={{textDecoration:"none"}}> Explore our products <i class="fa-solid fa-arrow-right"></i> </a>
+                    <a href="#" className='col-6' style={{textDecoration:"none"}}> Try Kite Demo <i class="fa-solid fa-arrow-right"></i> </a>
                 </div>
                 
             </div>
