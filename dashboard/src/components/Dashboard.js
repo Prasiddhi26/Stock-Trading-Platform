@@ -4,15 +4,18 @@ import { Route, Routes } from "react-router-dom";
 import Apps from "./Apps";
 import Funds from "./Funds";
 import Holdings from "./Holdings";
-
+import WatchList from "./WatchList";
 import Orders from "./Orders";
 import Positions from "./Positions";
 import Summary from "./Summary";
 
 
+
 function Dashboards() {
   return (
     <div className="dashboard-container">
+      
+        <WatchList />
       
 
       <div className="content">
